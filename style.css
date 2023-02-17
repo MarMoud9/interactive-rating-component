@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: "overpass", sans-serif;
+}
+
+body{
+    background-color: #141519;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+main{
+    width: 400px;
+    height: 400px;
+    background-color: #1E252F ;
+    padding: 35px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.icon{
+    background-color: #27333C;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+}
+.icon img{
+    padding: 15px;
+    
+}
+main h1{
+    color: #fff;
+    font-weight: 400;
+    margin: 0;
+}
+main p {
+    color:hsl(217, 12%, 63%) ;
+    margin-top: 0;
+    width: 100%;
+}
+.buttons{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.buttons button{
+    background-color:#27333C ;
+    border: transparent;
+    border-radius: 50px;
+    font-size: 15px;
+    width: 50px;
+    height: 50px;
+    color: hsl(217, 12%, 63%);
+    transition: .5s;
+}
+.buttons button:hover{
+    background-color: hsl(216, 12%, 54%);
+    color: #fff;
+}
+.submit-btn{
+    margin-top: 30px;
+    width: 100%;
+    height: 12%;
+    background-color: hsl(25, 97%, 53%) ;
+    border-radius: 50px;
+    border: transparent;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700 ;
+    font-size: 15px;
+    letter-spacing: 3px;
+    transition: .5s;
+}
+.submit-btn:hover{
+    color: hsl(25, 97%, 53%);
+    background-color: #fff;
+}
+.buttons .active{
+    background-color: hsl(25, 97%, 53%);
+    color: #fff;
+
+}
+.buttons .active:hover{
+    background-color: hsl(25, 97%, 53%);
+}
+.rating{
+    color: hsl(25, 97%, 53%);
+    background-color: #27333C;
+    width: fit-content;
+    padding: 5px 10px;
+    border-radius: 50px;
+}
